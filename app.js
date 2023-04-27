@@ -104,7 +104,7 @@ app.get("/players/:playerId/matches/", async (request, response) => {
   const { playerId } = request.params;
   const getPlayerMatchQuarry = `
         SELECT 
-            match_details.match_id AS matchID,
+            match_details.match_id AS matchId,
             match_details.match AS match,
             match_details.year AS year
         FROM
