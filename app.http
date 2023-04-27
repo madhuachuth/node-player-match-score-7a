@@ -1,0 +1,28 @@
+### GET players http request
+GET http://localhost:3000/players/
+
+
+### Get player http request
+GET http://localhost:3000/players/2/
+
+
+### Put player htpp request
+PUT http://localhost:3000/players/2
+Content-Type: application/json
+
+{
+    "playerName":"Raju"
+}
+
+### Get match htpp request
+GET http://localhost:3000/matches/18/
+
+
+### GET player_match_score and match_details http response
+GET http://localhost:3000/players/3/matches/
+
+### GET player_match_score and player_details http response
+GET http://localhost:3000/matches/4/players
+
+### GET player_detials and player_match_score
+GET http://localhost:3000/players/2/playerScores
